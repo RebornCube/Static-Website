@@ -89,6 +89,34 @@
     margin-bottom: 10px;
   }
   
+  .test-button {
+    background-color: #821785; /* Green */
+    border: 2px;
+    border-style: solid;
+    border-color: #111;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.15s;
+  }
+
+  .test-button:hover {
+    opacity: 0.5;
+  }
+
+  .test-button:active {
+    opacity: 1;
+    background-color: #174785;
+  }
+
+
+
   /* Footer Styling */
   footer {
     background-color: #333;
