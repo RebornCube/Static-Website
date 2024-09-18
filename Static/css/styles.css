@@ -108,6 +108,12 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
   }
+
+  .box:hover{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.1);
+  }
  
   .test-button {
     background-color: #821785; /* Green */
