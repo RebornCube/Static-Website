@@ -7,7 +7,7 @@
   
   /* Body Styling */
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
@@ -25,16 +25,12 @@
   header h1 {
     font-size: 2.5rem;
     }
-
-  header h1 span {
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  }
   
   /* Navigation Bar */
   nav {
     display: flex;
     justify-content: center;
-    background-color: #444;
+    background-color: #333;
   }
   
   nav ul {
@@ -79,7 +75,7 @@
     margin-bottom: 40px;
     padding: 20px;
     background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
   }
   
   /* Sidebar Styling */
@@ -232,3 +228,13 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   } 
+
+  div.image {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.container-imagetitle {
+    padding: 10px;
+  }
