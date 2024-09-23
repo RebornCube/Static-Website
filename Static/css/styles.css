@@ -98,6 +98,7 @@
     gap: 20px; /* Add some space between boxes */
     margin: 0 auto;
     max-width: 900px;
+    margin-bottom: 20px;
   }
 
   .box {
@@ -186,6 +187,12 @@
     }
   
     main, aside {
+      margin-bottom: 20px;
+    }
+    .container {
+      display: block;
+    }
+    .box {
       margin-bottom: 20px;
     }
   }
