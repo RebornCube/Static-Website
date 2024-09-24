@@ -69,13 +69,28 @@
     margin-bottom: 20px;
   }
   
+  /* For div to centre items*/
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+  
   /* Section Styling */
   section {
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 20px;
+    max-width: 900px;
+
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+  }
+
+  pre {
+    font-family: monospace;
+    background-color: #818181;
+    color: #fff;
+    padding: 20px;
   }
   
   /* Sidebar Styling */
@@ -195,6 +210,9 @@
     .box {
       margin-bottom: 20px;
     }
+    section {
+      width: 100%;
+    }
   }
   
    /* The sidebar menu */
@@ -237,6 +255,7 @@
   } 
 
   div.image {
+    flex: 1;
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;

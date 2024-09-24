@@ -12,8 +12,7 @@
 
 <body>
 <header>
-    <h1>Header</h1>
-    
+    <h1>HTML and CSS test Space</h1>
 </header>
 
 <nav>
@@ -26,7 +25,7 @@
 
     <h1>Welcome to the Second Page</h1>
 
-    <p>This is the content of the second page.</p>
+    <p>This is the content of the second page. The page is for testing ideas out in simple HTML and CSS. Some of this may be a little messy buy it works.</p>
 
     <!-- Link back to the first page -->
     <a href="index.html">Go back to the main page</a>
@@ -40,9 +39,11 @@
     </p>
 </aside>
 
-<section>
-    this is a test piece Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio possimus sit laudantium dicta ut, blanditiis soluta alias cum beatae aperiam perspiciatis inventore aliquam eos, molestias sunt et at? In, suscipit?
-</section>
+<div class="center">
+    <section>
+        this is a test piece Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio possimus sit laudantium dicta ut, blanditiis soluta alias cum beatae aperiam perspiciatis inventore aliquam eos, molestias sunt et at? In, suscipit?
+    </section>
+</div>
 
 <button class="test-button">
     Button
@@ -66,11 +67,43 @@
     </div>
 </div>
 
-<div class="image">
-  <img src="2024-08-29 15.21.54.jpg" alt="Joke" style="width:100%">
-  <div class="container-imagetitle">
-    <p>IG_DOODS</p>
+<div class="container">
+  <div class="image">
+    <img src="Static/images/2024-08-29 15.21.54.jpg" alt="Joke" style="width:100%">
+    <div class="container-imagetitle">
+      <p>IG_DOODS</p>
+    </div>
   </div>
+  <div class="image">
+    <img src="Static/images/2024-09-10 18.10.53.jpg" alt="Joke" style="width:100%">
+    <div class="container-imagetitle">
+      <p>Unknown</p>
+    </div>
+  </div>
+</div>
+
+<div class="center">
+    <section>
+        <h3>Code Snippet</h3>
+        <P>
+            This is an example of some Python code that can be used to stitch .PDF files together. I've used a momospace font to keep text aligned.
+        </P>
+        <pre>
+from pypdf import PdfMerger
+
+def join_pdf(pdfs, filename):
+    merger = PdfMerger()
+
+    for pdf in pdfs:
+        merger.append(pdf)
+
+    merger.write(f"{filename}.pdf")
+    merger.close()
+    print(f'File created: {filename}')
+
+if __name__ == '__main__':
+    join_pdf(['PDF_1.pdf', 'PDF_2.pdf'], 'results') </pre>
+    </section>
 </div>
 
 </body>
